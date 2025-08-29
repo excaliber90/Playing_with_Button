@@ -10,13 +10,13 @@ public class Movement : MonoBehaviour
     public float xSpeed = 0.5f;
     public float ySpeed = 0.5f;
     public float zSpeed = 0.5f;
-    // Start is called before the first frame update
+
     void Start()
     {
 
     }
 
-    // Update is called once per frame
+
     void Update()
     {
        Move(); 
@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.D)){
 
-        //to change the position of the object
+
                 transform.position +=new Vector3(xSpeed,0,0);
 
         }

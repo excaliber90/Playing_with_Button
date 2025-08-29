@@ -9,7 +9,7 @@ public class CameraController : MonoBehaviour
     public Camera _camera;
     public float zoomSize= 0.01f;
 
-    // Update is called once per frame
+    // it is called per once frame
     void Update()
     {
         CameraSizeZoomInZoomOut();
