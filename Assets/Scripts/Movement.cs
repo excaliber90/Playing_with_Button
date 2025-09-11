@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 
 public class Movement : MonoBehaviour
 {
-
+    // Defines the speed of the object
     public float xSpeed = 0.5f;
     public float ySpeed = 0.5f;
     public float zSpeed = 0.5f;

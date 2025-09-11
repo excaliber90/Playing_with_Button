@@ -5,11 +5,9 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-     //Camel case notation: prashantThapa
     public Camera _camera;
     public float zoomSize= 0.01f;
 
-    // it is called per once frame
     void Update()
     {
         CameraSizeZoomInZoomOut();
