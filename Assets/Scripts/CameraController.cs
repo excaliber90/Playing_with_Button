@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+
     public Camera _camera;
     public float zoomSize= 0.01f;
 
